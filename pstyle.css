@@ -1,0 +1,58 @@
+.products h1 { 
+    color:blue;
+    margin: 35px;
+    font-size: 60px;
+    align-items:center;
+    justify-content: center; /**/
+    display:flex;    /**/
+
+}
+
+.products .box {
+    width: 90%;
+    height: 450px;
+    margin: 5%;
+    display: grid;   /**/
+    grid-template-columns: 1fr 1fr 1fr 1fr;    /**/
+    
+}
+
+.products .box .card{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 8px red;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background: white;
+
+}
+
+.products .box .card .small_card{
+
+}
+
+.products .box .card:hover .small_card{
+
+
+}
+
+.products .box .card .image{
+
+}
+
+.products .box .card .small_card i{
+
+}
+
+.products .box .card .small_card i:hover{
+    color: red;
+}
+
+.products .box .card .products_text p{
+
+}
+
+.products .box .card .products_text .products_star{
+
+}
