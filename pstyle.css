@@ -29,19 +29,27 @@
 }
 
 .products .box .card .small_card{
+    display: flex;
+    flex-flow:column; /**/
+    position:absolute;
+    margin: 10px;
+    transition: 0.3s;  /**/
+    
 
 }
 
 .products .box .card:hover .small_card{
+    crusor:pointer; /**/
 
 
 }
 
 .products .box .card .image{
-
+align-items: center;
 }
 
 .products .box .card .small_card i{
+    color:yellow;
 
 }
 
