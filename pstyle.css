@@ -1,0 +1,117 @@
+.products h1 { 
+    width: 50%;
+    margin: auto;
+    font-size: 60px;
+    align-items:center;
+    justify-content: center; /**/
+    display:flex;    /**/
+    color: #a630a6;
+
+}
+
+
+
+.products .box {
+    width: 90%;
+    height: 450px;
+    margin: 5%;
+    display: grid;   /**/
+    grid-template-columns: 1fr 1fr 1fr 1fr;    /**/  
+    grid-gap: 25px 0;
+}
+
+.products .box .card{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    background-color:white;
+
+}
+
+.products .box .card .small_card{
+    display: flex;
+    flex-flow:column; /**/
+    position:absolute;
+    margin: 10px;
+    transition: 0.3s;  /**/
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.products .box .card .small_card i{
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px ;
+    line-height: 15px;
+    border: 2px solid gray;
+    transition: 0.2s;
+  
+}
+
+.products .box .card:hover .small_card{
+    cursor:pointer; /**/
+    transform: translateX(2px);
+    opacity: 1;
+    
+}
+
+.products .box .card .image{
+    align-items: center;
+}
+
+.products .box .card .small_card i:hover{
+    color: red;
+    
+}
+
+
+.products .box .card .image img{
+    width: 150px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.products .box .card:hover .image img{
+    transform: scale(1.1);
+}
+
+
+.small_card:hover img{
+    color: red;
+    transition: 0.3s ease;
+}
+
+.products .box .card .products_text h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.products .box .card .products_text h3{
+    margin: 7px 0;
+}
+
+
+.products .box .card .products_text p{
+    color: #38383891;
+    line-height: 21px;
+    margin: 8px 0;
+
+}
+/*.products .box .card .products_text */
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ca1818 , #3d14d0);
+    color: white;
+}
+.star{
+    margin: 20px;
+    color: orange;
+}
+
